@@ -27,7 +27,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você instalou a versão mais recente do `<Python3">`
 * Você tem uma máquina `<Windows / Linux / Mac>`.
-* Você instalou todas as dependências do `"requiriments.txt"`.
+* Você instalou todas as dependências do `"requirements.txt"`.
 
 ## 🚀 Executando o PyMaster (Pes2021 stats to PES6)
 
