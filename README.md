@@ -11,6 +11,9 @@
 
 > Preview do projeto online.
 
+Clone
+git clone https://github.com/FVitor7/PyMaster-Pes2021-stats-to-PES6.git
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
@@ -29,6 +32,10 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina `<Windows / Linux / Mac>`.
 * Você instalou todas as dependências do `"requirements.txt"`.
 
+```
+pip install -r requirements.txt
+```
+
 ## 🚀 Executando o PyMaster (Pes2021 stats to PES6)
 
 Para executar, siga estas etapas:
@@ -37,6 +44,9 @@ Linux, macOS & Windows:
 
 Vá até a pasta do projeto e execute o seguinte comando
 ```
+flask create-db  # rodar uma vez
+flask populate-db # rodar uma vez
+flask add-user -u admin -p 1234  # adiciona usuario admin
 flask run
 ```
 URL para acessar o projeto no navegador:
@@ -44,6 +54,31 @@ URL para acessar o projeto no navegador:
 ```
 http://localhost:5000
 ````
+
+Painel ADMIN:
+
+```
+http://localhost:5000/admin
+````
+
+API:
+
+```
+http://localhost:5000/api/v1/
+```
+Buscando jogadores pelo nome:
+```
+http://localhost:5000/api/v1/?name=vitor
+```
+É possível buscar por time e nacionalidade passando os parametros (team e nation).
+
+Obtendo stats dos jogadores através do ID:
+
+```
+http://localhost:5000/api/v1/stats/?id=10
+```
+
+
 
 
 
