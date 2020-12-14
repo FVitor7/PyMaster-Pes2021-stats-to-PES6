@@ -49,7 +49,7 @@ Linux, macOS & Windows:
 
 Vá até a pasta do projeto e execute o seguinte comando
 ```
-flask add-user -u admin -p 1234  # adiciona usuario admin
+flask add-user -u admin -p 1234  # adiciona usuario admin (executar apenas uma vez)
 flask run
 ```
 URL para acessar o projeto no navegador:
