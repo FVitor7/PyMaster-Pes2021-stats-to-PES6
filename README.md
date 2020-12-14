@@ -11,8 +11,12 @@
 
 > Preview do projeto online.
 
-Clone
+---
+
+## Clone
+```bash
 git clone https://github.com/FVitor7/PyMaster-Pes2021-stats-to-PES6.git
+```
 
 ### Ajustes e melhorias
 
