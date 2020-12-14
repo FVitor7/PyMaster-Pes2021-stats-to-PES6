@@ -26,7 +26,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] inserir os dados dos jogadores em um banco SQLite;
 - [x] Criação da API Rest com o micro-framework Flask;
 - [x] Consumir API Rest com Javascript;
-- [x] Criação do Frontend com auxilio do bootstrap.
+- [x] Criação do Frontend com auxilio do bootstrap;
+- [ ] Criação de um aplicativo mobile com React Native.
 
 ## 💻 Pré-requisitos
 
