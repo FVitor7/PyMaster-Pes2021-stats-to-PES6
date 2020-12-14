@@ -93,6 +93,44 @@ Ao clicar no jogador é exibido as suas habilidades para PES6 e um botão para c
 
 ```
 
+## Structure
+
+```bash
+.
+├── Makefile
+├── pymaster  (MAIN PACKAGE)
+│   ├── app.py  (APP FACTORIES)
+│   ├── blueprints  (BLUEPRINT FACTORIES)
+│   │   ├── __init__.py
+│   │   ├── restapi  (REST API)
+│   │   │   ├── __init__.py
+│   │   │   └── resources.py
+│   │   └── webui  (FRONT END)
+│   │       ├── __init__.py
+│   │       ├── templates
+│   │       │   ├── index.html
+│   │       │   ├── player.html
+│   │       │   └── api.html
+│   │       └── views.py
+│   ├── ext (EXTENSION FACTORIES)
+│   │   ├── admin.py
+│   │   ├── appearance.py
+│   │   ├── auth.py
+│   │   ├── commands.py
+│   │   ├── configuration.py
+│   │   ├── database.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── models.py  (DATABASE MODELS)
+│   ├── templates  (Login page and ADMIN html)
+│   ├── static  (Login page and ADMIN js)
+├── README.md
+├── requirements.txt
+└── settings.toml  (SETTINGS)
+
+7 directories, 26 files
+```
+
 
 ## 📫 Contribuindo para PyMaster (Pes2021 stats to PES6)
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
