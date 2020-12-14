@@ -49,8 +49,6 @@ Linux, macOS & Windows:
 
 Vá até a pasta do projeto e execute o seguinte comando
 ```
-flask create-db  # rodar uma vez
-flask populate-db # rodar uma vez
 flask add-user -u admin -p 1234  # adiciona usuario admin
 flask run
 ```
