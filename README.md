@@ -129,7 +129,6 @@ Ao clicar no jogador é exibido as suas habilidades para PES6 e um botão para c
 ├── requirements.txt
 └── settings.toml  (SETTINGS)
 
-7 directories, 26 files
 ```
 
 
