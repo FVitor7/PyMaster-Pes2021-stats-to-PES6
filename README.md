@@ -55,7 +55,7 @@ URL para acessar o projeto no navegador:
 http://localhost:5000
 ````
 
-Painel ADMIN:
+Painel ADMIN: (é possível cadastrar novos usuários e jogadores).
 
 ```
 http://localhost:5000/admin
@@ -79,9 +79,6 @@ http://localhost:5000/api/v1/stats/?id=10
 ```
 
 
-
-
-
 ## ☕ Usando o PyMaster (Pes2021 stats to PES6)
 
 Para usar, siga estas etapas:
@@ -92,7 +89,6 @@ Ao clicar no jogador é exibido as suas habilidades para PES6 e um botão para c
 
 ```
 
-É possível acessar o painel ADM onde é possível cadastrar novos usuários e novos jogadores.
 
 ## 📫 Contribuindo para PyMaster (Pes2021 stats to PES6)
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
