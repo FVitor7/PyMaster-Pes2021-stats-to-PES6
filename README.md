@@ -11,6 +11,9 @@
 
 > Preview do projeto online.
 
+![Alt Text](https://github.com/FVitor7/Django-LinkDev-Free/raw/master/preview.gif)
+
+
 ---
 
 ## Clone
