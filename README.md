@@ -11,7 +11,7 @@
 
 > Preview do projeto online.
 
-![Alt Text](https://github.com/FVitor7/Django-LinkDev-Free/raw/master/preview.gif)
+![Alt Text](https://github.com/FVitor7/PyMaster-Pes2021-stats-to-PES6/raw/master/Preview.gif)
 
 
 ---
